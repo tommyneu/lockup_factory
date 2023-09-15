@@ -7,11 +7,11 @@
 // FROM generateLockups AND generatePreviewLockups IN /sec/controller/LockupsController.php
 
 $servername = "localhost";
-$username = "root";
-$password = "";
+$username = "lockups";
+$password = "khnYHtKCoG4T0ypiU1Dxt9ntENPhQYJ1Wv6o3c79IE8DzWLZ4w2p7DQJaSBXfiaj";
 $database = "lockups";
 
-$lockupsURL = "http://local-lockups.unl.edu:8000";
+$lockupsURL = "https://lockups.unl.edu/";
 
 // Create connection
 $conn = new \mysqli($servername, $username, $password, $database);
