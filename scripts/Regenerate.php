@@ -7,8 +7,8 @@
 // FROM generateLockups AND generatePreviewLockups IN /sec/controller/LockupsController.php
 
 $servername = "localhost";
-$username = "lockups";
-$password = "khnYHtKCoG4T0ypiU1Dxt9ntENPhQYJ1Wv6o3c79IE8DzWLZ4w2p7DQJaSBXfiaj";
+$username = "";
+$password = "";
 $database = "lockups";
 
 $lockupsURL = "https://lockups.unl.edu/";
