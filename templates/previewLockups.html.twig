@@ -104,7 +104,7 @@
 					</div>
 					{% endif %}
 
-					{% if Lockup.getCreativeStatus != 1 %}
+					{% if Lockup.getCommunicatorStatus != 1 %}
 						<form method="POST" style="display: inline;">
 							<input type="hidden" name="token" value="{{ csrf_token('lockups-action') }}" />
 							<button type="submit" class="dcf-btn dcf-btn-primary dcf-mt-4">Approve This Lockup</button>
@@ -113,7 +113,7 @@
 							<input type="hidden" name="action" value="approve">
 						</form>
 					{% endif %}
-					{% if Lockup.getCreativeStatus != 2 %}
+					{% if Lockup.getCommunicatorStatus != 2 %}
 						<form method="POST" style="display: inline;">
 							<input type="hidden" name="token" value="{{ csrf_token('lockups-action') }}" />
 							<button type="submit" class="dcf-btn dcf-btn-secondary dcf-mt-4">Deny This Lockup</button>
